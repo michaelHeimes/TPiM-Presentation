@@ -1,0 +1,73 @@
+.app-container {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	img {
+		max-width: 100%;
+	}
+	
+	.nav-click {
+		cursor: pointer;
+	}
+	
+	.bg {
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50% 50%;
+	}
+	
+	.app-inner {
+		position: relative;
+		
+		section {
+			position: relative;
+			display: block;
+			height: 100vh;
+			width: 56.25vh;
+			max-width: 100vh;
+			margin: auto;
+			
+		}
+		
+		.home {
+			.home-bg-1 {
+				//background-image: url(../../images/home-bg-level-1.svg);
+				background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(174,176,179,1) 100%);
+			}
+
+				.cog-nav {
+					position: absolute;
+					top: 0;
+					left: 0;
+					right: 0;
+					display: flex;
+					svg {
+						width: 100%;
+						margin: auto;
+					}
+				}
+			.top {
+				text-align: center;
+				.home-text-1 {
+					width: 44%;
+					margin: auto;
+				}
+				
+			}
+		}
+		
+	}
+	
+}
+
+

@@ -1,0 +1,46 @@
+$FontPath: "../../fonts/";
+
+@font-face {
+  font-family: 'UniversLTPro-UltCond';
+  font-style: normal;
+  font-weight: 400;
+  src: local('UniversLTPro-UltCond'), local('UniversLTPro-UltCond'),
+	   url('#{$FontPath}UniversLTPro-UltCond.woff2') format('woff2'), /* Super Modern Browsers */
+	   url('#{$FontPath}UniversLTPro-UltCond.woff') format('woff'), /* Modern Browsers */
+	   url('#{$FontPath}UniversLTPro-UltCond.ttf') format('truetype'), /* Safari, Android, iOS */
+	   url('#{$FontPath}UniversLTPro-UltCond.svg#UniversLTPro-UltCond') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'UniversLTPro-BoldCond';
+  font-style: normal;
+  font-weight: 700;
+  src: local('UniversLTPro-BoldCond'), local('UniversLTPro-BoldCond'),
+	   url('#{$FontPath}UniversLTPro-BoldCond.woff2') format('woff2'), /* Super Modern Browsers */
+	   url('#{$FontPath}UniversLTPro-BoldCond.woff') format('woff'), /* Modern Browsers */
+	   url('#{$FontPath}UniversLTPro-BoldCond.ttf') format('truetype'), /* Safari, Android, iOS */
+	   url('#{$FontPath}UniversLTPro-BoldCond.svg#UniversLTPro-BoldCond') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'UniversLTPro-75Black';
+  font-style: normal;
+  font-weight: 800;
+  src: local('UniversLTPro-75Black'), local('UniversLTPro-75Black'),
+	   url('#{$FontPath}UniversLTPro-75Black.woff2') format('woff2'), /* Super Modern Browsers */
+	   url('#{$FontPath}UniversLTPro-75Black.woff') format('woff'), /* Modern Browsers */
+	   url('#{$FontPath}UniversLTPro-75Black.ttf') format('truetype'), /* Safari, Android, iOS */
+	   url('#{$FontPath}UniversLTPro-75Black.svg#UniversLTPro-75Black') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'UniversLTPro-BlackExt';
+  font-style: normal;
+  font-weight: 900;
+  src: local('UniversLTPro-BlackExt'), local('UniversLTPro-BlackExt'),
+	   url('#{$FontPath}UniversLTPro-BlackExt.woff2') format('woff2'), /* Super Modern Browsers */
+	   url('#{$FontPath}UniversLTPro-BlackExt.woff') format('woff'), /* Modern Browsers */
+	   url('#{$FontPath}UniversLTPro-BlackExt.ttf') format('truetype'), /* Safari, Android, iOS */
+	   url('#{$FontPath}UniversLTPro-BlackExt.svg#UniversLTPro-BlackExt') format('svg'); /* Legacy iOS */
+}
+
