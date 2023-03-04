@@ -1,0 +1,59 @@
+.app-container {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	img {
+		max-width: 100%;
+	}
+	
+	.click-groups > g {
+		cursor: pointer;
+	}
+	.color-cog {
+		path {
+			transition: .3s ease;
+		}
+	&.clicked {
+		path {
+			fill: $brand-red;
+		}
+	}
+	}
+	
+	.bg {
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50% 50%;
+	}
+	
+	.app-inner {
+		position: relative;
+		display: block;
+		height: 100vh;
+		width: 56.25vh;
+		max-width: 100vh;
+		margin: auto;
+		
+		section {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			
+			&:not(.home) {
+				background-color: #f9f9f9;
+			}
+			
+		}
+	}
+	
+}
