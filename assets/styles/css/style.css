@@ -699,12 +699,20 @@ body {
 .modal-mask .inner {
   width: 65vw;
 }
+.modal-mask .inner#air-modal {
+  padding: 6%;
+}
 .modal-mask .close-modal {
+  cursor: pointer;
   position: absolute;
   top: 0;
   right: 0;
   width: 10vw;
   height: 10vw;
+}
+.modal-mask .close-modal img {
+  max-width: 40%;
+  height: auto;
 }
 
 .home .home-bg-1 {

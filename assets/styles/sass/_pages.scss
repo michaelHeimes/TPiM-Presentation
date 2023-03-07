@@ -143,14 +143,24 @@
 	
 	.inner {
 		width: 65vw;
+		
+		&#air-modal {
+			padding: 6%;
+		}
+		
 	}
 	
 	.close-modal {
+		cursor: pointer;
 		position: absolute;
 		top: 0;
 		right: 0;
 		width: 10vw;
 		height: 10vw;
+		img {
+			max-width: 40%;
+			height: auto;
+		}
 	}
 	
 }
