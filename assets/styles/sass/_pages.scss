@@ -10,14 +10,18 @@
 		max-width: 100%;
 	}
 	
-	.click-groups > g {
+	.screensaver-trigger,
+	.click-groups > g,
+	.click-trigger {
 		cursor: pointer;
 	}
 	.color-cog {
+		transition: fill .3s ease;
 		path {
-			transition: .3s ease;
+			transition: fill .3s ease;
 		}
 	&.clicked {
+		fill: $brand-red;
 		path {
 			fill: $brand-red;
 		}
@@ -43,6 +47,7 @@
 		width: 56.25vh;
 		max-width: 100vh;
 		margin: auto;
+		overflow: hidden;
 		
 		section {
 			position: absolute;
@@ -50,10 +55,103 @@
 			height: 100%;
 			
 			&:not(.home) {
-				background-color: #f9f9f9;
+			}
+			
+			&.back-page-constant {
+				background-image: url('../../images/constant-bg.png');
+				background-size: cover;
+				
+				.bpc-top {
+					position: absolute;
+					top: 0;
+					left: 0;
+					right: 0;
+					width: 100%;
+				}
+				
+				#sidebar-bp {
+					position: absolute;
+					right: 0.2vw;
+					bottom: 10.2vw;
+					width: 12.521vw;
+				}
+				
+			}
+			
+			&.back-page {
+				width: 78vw;
+				height: 78vh;
+				top: 10vh;
+				left: 0vw;
+				padding-left: 8vw;
 			}
 			
 		}
 	}
 	
 }
+
+.screen-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	svg {
+		width: 100%;
+		margin: auto;
+	}
+}
+
+.drawer-wrap {
+	position: absolute;
+	left: -1.2%;
+	top: 10%;
+	right: 0;
+	bottom: 10%;
+	width: 86%;
+	
+	.inner {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+	}
+	
+	.close-drawer {
+		cursor: pointer;
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 36%;
+		height: 8%;
+	}
+	
+}
+
+.modal-mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,.7);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	.inner {
+		width: 65vw;
+	}
+	
+	.close-modal {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 10vw;
+		height: 10vw;
+	}
+	
+}
+
