@@ -168,6 +168,12 @@
 		
 		closeModal();
 		
+		if( appContainer.classList.contains('home') ) {
+			// do nothing
+		} else {
+			returnHome();
+		}
+		
 		closeOpening.play();
 			setTimeout(function() {
 				gsap.to(screensaver, {autoAlpha: 1, duration: .5});	
@@ -207,6 +213,8 @@
 			let activeCog = document.querySelector("[data-cog='" +  pageLink.dataset.page + "']");
 			let activeConstantCog = document.querySelector("[data-constant-cog='" +  pageLink.dataset.page + "']");
 			
+			appContainer.classList.remove('home');
+			
 			activeCog.classList.add('clicked');
 			activeConstantCog.classList.add('clicked');
 			
@@ -243,6 +251,8 @@
 	
 	// Return to Home Page
 	const returnHome = function() {
+		
+		appContainer.classList.add('home');
 		
 		removeCogActiveStates();
 

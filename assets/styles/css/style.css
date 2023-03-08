@@ -528,6 +528,12 @@ h3 {
   }
 }
 @font-face {
+  font-family: "UniversLTPro-55Roman";
+  font-style: normal;
+  font-weight: 400;
+  src: local("UniversLTPro-55Roman"), local("UniversLTPro-55Roman"), url("../../fonts/UniversLTPro-55Roman.woff2") format("woff2"), url("../../fonts/UniversLTPro-55Roman.woff") format("woff"), url("../../fonts/UniversLTPro-55Roman.ttf") format("truetype"), url("../../fonts/UniversLTPro-55Roman.svg#UniversLTPro-UltCond") format("svg"); /* Legacy iOS */
+}
+@font-face {
   font-family: "UniversLTPro-UltCond";
   font-style: normal;
   font-weight: 400;
@@ -540,6 +546,12 @@ h3 {
   src: local("UniversLTPro-BoldCond"), local("UniversLTPro-BoldCond"), url("../../fonts/UniversLTPro-BoldCond.woff2") format("woff2"), url("../../fonts/UniversLTPro-BoldCond.woff") format("woff"), url("../../fonts/UniversLTPro-BoldCond.ttf") format("truetype"), url("../../fonts/UniversLTPro-BoldCond.svg#UniversLTPro-BoldCond") format("svg"); /* Legacy iOS */
 }
 @font-face {
+  font-family: "UniversLTPro-65Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: local("UniversLTPro-65Bold"), local("UniversLTPro-65Bold"), url("../../fonts/UniversLTPro-65Bold.woff2") format("woff2"), url("../../fonts/UniversLTPro-65Bold.woff") format("woff"), url("../../fonts/UniversLTPro-65Bold.ttf") format("truetype"), url("../../fonts/UniversLTPro-65Bold.svg#UniversLTPro-65Bold") format("svg"); /* Legacy iOS */
+}
+@font-face {
   font-family: "UniversLTPro-75Black";
   font-style: normal;
   font-weight: 800;
@@ -550,6 +562,12 @@ h3 {
   font-style: normal;
   font-weight: 900;
   src: local("UniversLTPro-BlackExt"), local("UniversLTPro-BlackExt"), url("../../fonts/UniversLTPro-BlackExt.woff2") format("woff2"), url("../../fonts/UniversLTPro-BlackExt.woff") format("woff"), url("../../fonts/UniversLTPro-BlackExt.ttf") format("truetype"), url("../../fonts/UniversLTPro-BlackExt.svg#UniversLTPro-BlackExt") format("svg"); /* Legacy iOS */
+}
+@font-face {
+  font-family: "UniversLTPro-XBlackExt";
+  font-style: normal;
+  font-weight: 900;
+  src: local("UniversLTPro-XBlackExt"), local("UniversLTPro-XBlackExt"), url("../../fonts/UniversLTPro-XBlackExt.woff2") format("woff2"), url("../../fonts/UniversLTPro-XBlackExt.woff") format("woff"), url("../../fonts/UniversLTPro-XBlackExt.ttf") format("truetype"), url("../../fonts/UniversLTPro-XBlackExt.svg#UniversLTPro-XBlackExt") format("svg"); /* Legacy iOS */
 }
 body {
   font-family: "UniversLTPro-UltCond";
@@ -629,16 +647,22 @@ body {
 }
 .app-container .app-inner section.back-page-constant #sidebar-bp {
   position: absolute;
-  right: 0.2vw;
-  bottom: 10.2vw;
-  width: 12.521vw;
+  right: 0.5%;
+  bottom: 5%;
+  width: 16%;
 }
 .app-container .app-inner section.back-page {
-  width: 78vw;
-  height: 78vh;
-  top: 10vh;
-  left: 0vw;
-  padding-left: 8vw;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .screen-wrap {
