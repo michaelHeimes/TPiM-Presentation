@@ -1,0 +1,53 @@
+#p2-d1 {
+
+	.positioned-images {
+		img {
+			
+		&:nth-child(1) {			
+			bottom: 46%;
+			right: -9%;
+			width: 75%;
+		}
+
+		&:nth-child(2) {			
+			bottom: 8%;
+			right: 10%;
+			width: 45%;
+		}			
+			
+		}
+	}
+
+}
+
+#p2-d2 {
+
+	.positioned-images {
+		img {
+			
+		&:nth-child(1) {			
+			bottom: 6%;
+			width: 62%;
+			right: 5%;
+		}		
+	
+		}
+	}
+
+}
+
+#p2-d3 {
+
+	.positioned-images {
+		img {
+			
+		&:nth-child(1) {			
+			bottom: 3.44%;
+			right: 4.0%;
+			width: 55%;
+		}		
+	
+		}
+	}
+
+}

@@ -113,6 +113,19 @@
 	bottom: 10%;
 	width: 86%;
 	
+	img,
+	svg,
+	object {
+		width: 100%;
+		max-width: 100%;
+	}
+	
+	.positioned-images {
+		img {
+			position: absolute;
+		}
+	}
+	
 	.inner {
 		position: absolute;
 		top: 0;
@@ -145,6 +158,13 @@
 	
 	.inner {
 		width: 65vw;
+		
+		img,
+		svg,
+		object {
+			width: 100%;
+			max-width: 100%;
+		}
 		
 		&#air-modal {
 			padding: 6%;

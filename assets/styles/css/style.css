@@ -687,6 +687,15 @@ body {
   bottom: 10%;
   width: 86%;
 }
+.drawer-wrap img,
+.drawer-wrap svg,
+.drawer-wrap object {
+  width: 100%;
+  max-width: 100%;
+}
+.drawer-wrap .positioned-images img {
+  position: absolute;
+}
 .drawer-wrap .inner {
   position: absolute;
   top: 0;
@@ -723,6 +732,12 @@ body {
 .modal-mask .inner {
   width: 65vw;
 }
+.modal-mask .inner img,
+.modal-mask .inner svg,
+.modal-mask .inner object {
+  width: 100%;
+  max-width: 100%;
+}
 .modal-mask .inner#air-modal {
   padding: 6%;
 }
@@ -741,5 +756,132 @@ body {
 
 .home .home-bg-1 {
   background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(174, 176, 179) 100%);
+}
+
+#page-1 img.application-assessment-img {
+  position: absolute;
+  width: 74%;
+  bottom: 12%;
+  right: 15%;
+}
+
+#p2-d1 .positioned-images img:nth-child(1) {
+  bottom: 46%;
+  right: -9%;
+  width: 75%;
+}
+#p2-d1 .positioned-images img:nth-child(2) {
+  bottom: 8%;
+  right: 10%;
+  width: 45%;
+}
+
+#p2-d2 .positioned-images img:nth-child(1) {
+  bottom: 6%;
+  width: 62%;
+  right: 5%;
+}
+
+#p2-d3 .positioned-images img:nth-child(1) {
+  bottom: 3.44%;
+  right: 4%;
+  width: 55%;
+}
+
+#page-3 .cs-img {
+  position: absolute;
+  width: 52%;
+  bottom: 2%;
+  right: 15%;
+}
+
+#p3-d1 .positioned-images img {
+  bottom: 3.7%;
+  width: 80%;
+  right: 9%;
+}
+#p3-d1 .positioned-images .modal-trigger.air-trigger {
+  position: absolute;
+  cursor: pointer;
+  width: 19%;
+  height: 10%;
+  bottom: 33%;
+}
+
+#p3-d2 .positioned-images img {
+  bottom: 13%;
+  width: 40%;
+  right: 13%;
+}
+
+#p3-d3 .positioned-images img {
+  bottom: 7%;
+  width: 77%;
+  right: 9%;
+}
+
+#p3-d4 .positioned-images img {
+  bottom: 5%;
+  width: 33%;
+  right: 19%;
+}
+
+#p4-d1 object {
+  -webkit-transform: translateX(-2.3%);
+          transform: translateX(-2.3%);
+}
+#p4-d1 .positioned-images img {
+  bottom: 9.7%;
+  width: 56.1%;
+  right: 16%;
+}
+
+#p4-d2 object {
+  -webkit-transform: translateX(-2.3%);
+          transform: translateX(-2.3%);
+}
+#p4-d2 .positioned-images img {
+  bottom: 13%;
+  width: 40%;
+  right: 13%;
+}
+
+#p4-d3 object {
+  -webkit-transform: translateX(-2.3%);
+          transform: translateX(-2.3%);
+}
+#p4-d3 .positioned-images img {
+  bottom: 7%;
+  width: 77%;
+  right: 9%;
+}
+
+#p4-d4 object {
+  -webkit-transform: translateX(-2.3%);
+          transform: translateX(-2.3%);
+}
+#p4-d4 .positioned-images img {
+  bottom: 5%;
+  width: 33%;
+  right: 19%;
+}
+
+#page-5 .screen-img {
+  position: absolute;
+  width: 78%;
+  bottom: 10%;
+}
+
+#p5-d1 .positioned-images img {
+  bottom: 5.7%;
+  width: 50%;
+  right: 7%;
+}
+
+#page-6 img.service-support-img {
+  position: absolute;
+  width: 48%;
+  bottom: 6.5%;
+  left: 21%;
 }
 /*# sourceMappingURL=style.css.map */

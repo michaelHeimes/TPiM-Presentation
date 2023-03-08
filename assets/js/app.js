@@ -357,9 +357,11 @@
 			gsap.to(openModal, {display: 'block'});
 			gsap.to(openModal, {autoAlpha: 1, y: 0, duration: .5});
 			
-			setTimeout(function() {
-				playModalVideos.play();
-			}, 700);
+			if( playModalVideos != null) {
+				setTimeout(function() {
+					playModalVideos.play();
+				}, 700);
+			}
 			
 		});
 	});
