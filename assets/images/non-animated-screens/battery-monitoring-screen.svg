@@ -601,19 +601,19 @@
         <rect x="238.85" y="851.23" width="52.84" height="11.58" style="fill: #e3173e; opacity: .8;"/>
         <rect x="238.85" y="880.64" width="52.84" height="11.58" style="fill: #e3173e;"/>
       </g>
-      <g>
+      <g opacity="0">
         <circle cx="346.38" cy="2093.76" r="18.12" style="fill: #fff; stroke: #9ba4ad; stroke-miterlimit: 10; stroke-width: 1.91px;"/>
         <path d="m345.4,2084.1h1.96v8.93h8.93v1.96h-8.93v8.93h-1.96v-8.93h-8.93v-1.96h8.93v-8.93Z" style="fill: #e3173e;"/>
       </g>
-      <g>
+      <g opacity="0">
         <circle cx="800.14" cy="2093.76" r="18.12" style="fill: #fff; stroke: #9ba4ad; stroke-miterlimit: 10; stroke-width: 1.91px;"/>
         <path d="m799.17,2084.1h1.96v8.93h8.93v1.96h-8.93v8.93h-1.96v-8.93h-8.93v-1.96h8.93v-8.93Z" style="fill: #e3173e;"/>
       </g>
-      <g>
+      <g opacity="0">
         <circle cx="1293.56" cy="2093.76" r="18.12" style="fill: #fff; stroke: #9ba4ad; stroke-miterlimit: 10; stroke-width: 1.91px;"/>
         <path d="m1292.59,2084.1h1.96v8.93h8.93v1.96h-8.93v8.93h-1.96v-8.93h-8.93v-1.96h8.93v-8.93Z" style="fill: #e3173e;"/>
       </g>
-      <g>
+      <g opacity="0">
         <circle cx="1760.98" cy="2093.76" r="18.12" style="fill: #fff; stroke: #9ba4ad; stroke-miterlimit: 10; stroke-width: 1.91px;"/>
         <path d="m1760,2084.1h1.96v8.93h8.93v1.96h-8.93v8.93h-1.96v-8.93h-8.93v-1.96h8.93v-8.93Z" style="fill: #e3173e;"/>
       </g>
