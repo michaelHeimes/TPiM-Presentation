@@ -620,6 +620,10 @@ body {
   background-size: cover;
   background-position: 50% 50%;
 }
+.app-container svg.plus {
+  width: 14%;
+  position: absolute;
+}
 .app-container .app-inner {
   position: relative;
   display: block;
@@ -635,7 +639,7 @@ body {
   height: 100%;
 }
 .app-container .app-inner section.back-page-constant {
-  background-image: url("../../images/constant-bg.png");
+  background-image: url("../../images/constant-bg.svg");
   background-size: cover;
 }
 .app-container .app-inner section.back-page-constant .bpc-top {
@@ -663,6 +667,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.app-container .app-inner section.back-page object {
+  width: 100%;
 }
 
 .screen-wrap {
@@ -765,105 +772,189 @@ body {
   right: 15%;
 }
 
-#p2-d1 .positioned-images img:nth-child(1) {
-  bottom: 46%;
-  right: -9%;
-  width: 75%;
-}
-#p2-d1 .positioned-images img:nth-child(2) {
-  bottom: 8%;
-  right: 10%;
-  width: 45%;
-}
-
-#p2-d2 .positioned-images img:nth-child(1) {
-  bottom: 6%;
-  width: 62%;
-  right: 5%;
-}
-
-#p2-d3 .positioned-images img:nth-child(1) {
-  bottom: 3.44%;
-  right: 4%;
-  width: 55%;
-}
-
-#page-3 .cs-img {
+#page-2 .mask-buttons > div {
   position: absolute;
-  width: 52%;
-  bottom: 2%;
-  right: 15%;
+  width: 13%;
+  height: 8%;
+  background: rgba(255, 255, 255, 0.4);
+}
+#page-2 .mask-buttons > div#p2-d1-trigger {
+  top: 49%;
+  left: 12.35%;
+}
+#page-2 .mask-buttons > div#p2-d2-trigger {
+  top: 49%;
+  left: 33.65%;
+}
+#page-2 .mask-buttons > div#p2-d3-trigger {
+  top: 49%;
+  left: 54.6%;
+}
+#page-2 .mask-buttons > div svg.plus {
+  bottom: 10.4%;
+  left: 43.5%;
 }
 
-#p3-d1 .positioned-images img {
-  bottom: 3.7%;
-  width: 80%;
-  right: 9%;
+#p2-d1 {
+  -webkit-transform: translateX(-1vh);
+          transform: translateX(-1vh);
 }
-#p3-d1 .positioned-images .modal-trigger.air-trigger {
+
+#p2-d2 {
+  -webkit-transform: translateX(-1vh);
+          transform: translateX(-1vh);
+}
+#p2-d2 .mask-buttons > div {
   position: absolute;
-  cursor: pointer;
-  width: 19%;
+  width: 13%;
+  height: 8%;
+  background: rgba(255, 255, 255, 0.4);
+}
+#p2-d2 .mask-buttons > div.at-package-trigger {
+  top: 61.22%;
+  left: 10.36%;
+}
+#p2-d2 .mask-buttons > div.at-package-trigger svg.plus {
+  bottom: 10.4%;
+  left: 43.5%;
+}
+
+#page-3 .mask-buttons > div {
+  position: absolute;
+  width: 28%;
+  height: 8%;
+  background: rgba(255, 255, 255, 0.4);
+}
+#page-3 .mask-buttons > div#p3-d1-trigger {
+  top: 42.95%;
+  left: 10.12%;
+}
+#page-3 .mask-buttons > div#p3-d2-trigger {
+  top: 42.95%;
+  left: 45.8%;
+}
+#page-3 .mask-buttons > div#p3-d3-trigger {
+  top: 51.4%;
+  left: 10.12%;
+}
+#page-3 .mask-buttons > div#p3-d4-trigger {
+  top: 51.4%;
+  left: 45.8%;
+}
+#page-3 .mask-buttons > div svg.plus {
+  width: 6.25%;
+  bottom: 17.4%;
+  left: 48.5%;
+}
+
+#p3-d1 {
+  -webkit-transform: translateX(-1.15vh);
+          transform: translateX(-1.15vh);
+}
+#p3-d1 .mask-buttons > div {
+  position: absolute;
+  width: 13%;
+  height: 8%;
+  background: rgba(255, 255, 255, 0.4);
+}
+#p3-d1 .mask-buttons > div.air-trigger.modal-trigger {
+  top: 56%;
+  left: 13%;
   height: 10%;
-  bottom: 33%;
+}
+#p3-d1 .mask-buttons > div.air-trigger.modal-trigger svg.plus {
+  bottom: 10.4%;
+  left: 43.5%;
 }
 
-#p3-d2 .positioned-images img {
-  bottom: 13%;
-  width: 40%;
-  right: 13%;
+#p3-d2 {
+  -webkit-transform: translateX(-1.15vh);
+          transform: translateX(-1.15vh);
 }
 
-#p3-d3 .positioned-images img {
-  bottom: 7%;
-  width: 77%;
-  right: 9%;
+#p3-d3 {
+  -webkit-transform: translateX(-1.15vh);
+          transform: translateX(-1.15vh);
 }
 
-#p3-d4 .positioned-images img {
-  bottom: 5%;
-  width: 33%;
-  right: 19%;
+#p3-d4 {
+  -webkit-transform: translateX(-1.15vh);
+          transform: translateX(-1.15vh);
 }
 
-#p4-d1 object {
-  -webkit-transform: translateX(-2.3%);
-          transform: translateX(-2.3%);
+#page-4 .mask-buttons > div {
+  position: absolute;
+  width: 17%;
+  height: 13%;
+  background: rgba(255, 255, 255, 0.4);
 }
-#p4-d1 .positioned-images img {
-  bottom: 9.7%;
-  width: 56.1%;
-  right: 16%;
+#page-4 .mask-buttons > div#p4-d1-trigger {
+  top: 42.95%;
+  left: 10.12%;
+}
+#page-4 .mask-buttons > div#p4-d1-trigger svg {
+  left: 29%;
+}
+#page-4 .mask-buttons > div#p4-d2-trigger {
+  top: 42.95%;
+  left: 30.5%;
+}
+#page-4 .mask-buttons > div#p4-d2-trigger svg {
+  left: 32.6%;
+}
+#page-4 .mask-buttons > div#p4-d3-trigger {
+  top: 42.95%;
+  left: 50.5%;
+}
+#page-4 .mask-buttons > div#p4-d3-trigger svg {
+  left: 49%;
+}
+#page-4 .mask-buttons > div#p4-d4-trigger {
+  top: 42.95%;
+  left: 74.5%;
+}
+#page-4 .mask-buttons > div#p4-d4-trigger svg {
+  left: 35%;
+}
+#page-4 .mask-buttons > div svg.plus {
+  width: 10.2%;
+  bottom: 8.1%;
+  left: 49.3%;
 }
 
-#p4-d2 object {
-  -webkit-transform: translateX(-2.3%);
-          transform: translateX(-2.3%);
+#p4-d1 {
+  -webkit-transform: translateX(-1.15vh);
+          transform: translateX(-1.15vh);
 }
-#p4-d2 .positioned-images img {
-  bottom: 13%;
-  width: 40%;
-  right: 13%;
+#p4-d1 .mask-buttons > div {
+  position: absolute;
+  width: 13%;
+  height: 8%;
+  background: rgba(255, 255, 255, 0.4);
+}
+#p4-d1 .mask-buttons > div.air-trigger.modal-trigger {
+  top: 56%;
+  left: 13%;
+  height: 10%;
+}
+#p4-d1 .mask-buttons > div.air-trigger.modal-trigger svg.plus {
+  bottom: 10.4%;
+  left: 43.5%;
 }
 
-#p4-d3 object {
-  -webkit-transform: translateX(-2.3%);
-          transform: translateX(-2.3%);
-}
-#p4-d3 .positioned-images img {
-  bottom: 7%;
-  width: 77%;
-  right: 9%;
+#p4-d2 {
+  -webkit-transform: translateX(-1.15vh);
+          transform: translateX(-1.15vh);
 }
 
-#p4-d4 object {
-  -webkit-transform: translateX(-2.3%);
-          transform: translateX(-2.3%);
+#p4-d3 {
+  -webkit-transform: translateX(-1.15vh);
+          transform: translateX(-1.15vh);
 }
-#p4-d4 .positioned-images img {
-  bottom: 5%;
-  width: 33%;
-  right: 19%;
+
+#p4-d4 {
+  -webkit-transform: translateX(-1.15vh);
+          transform: translateX(-1.15vh);
 }
 
 #page-5 .screen-img {

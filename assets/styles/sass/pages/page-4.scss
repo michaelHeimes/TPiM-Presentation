@@ -1,59 +1,147 @@
-#page-4 {
+// #page-4 {
+// 
+// }
+// 
+// #p4-d1 {
+// 	object {
+// 		transform: translateX(-2.3%);
+// 	}
+// 	
+// 	.positioned-images {
+// 		img {
+// 			bottom: 9.7%;
+// 			width: 56.1%;
+// 			right: 16%;
+// 		}
+// 	}
+// }
+// 
+// #p4-d2 {
+// 	object {
+// 		transform: translateX(-2.3%);
+// 	}
+// 	
+// 	.positioned-images {
+// 		img {
+// 			bottom: 13%;
+// 			width: 40%;
+// 			right: 13%;
+// 		}
+// 	}
+// }
+// 
+// #p4-d3 {
+// 	object {
+// 		transform: translateX(-2.3%);
+// 	}
+// 	
+// 	.positioned-images {
+// 		img {
+// 			bottom: 7%;
+// 			width: 77%;
+// 			right: 9%;
+// 		}
+// 	}
+// }
+// 
+// #p4-d4 {
+// 	object {
+// 		transform: translateX(-2.3%);
+// 	}
+// 	
+// 	.positioned-images {
+// 		img {
+// 			bottom: 5%;
+// 			width: 33%;
+// 			right: 19%;
+// 		}
+// 	}
+// }
 
+
+#page-4 {
+	.mask-buttons {
+	
+		> div {
+			position: absolute;
+			width: 17%;
+			height: 13%;
+			background: rgba(255,255,255,.4);
+			
+		&#p4-d1-trigger {
+			top: 42.95%;
+			left: 10.12%;
+			svg {
+				left: 29%;
+			}
+		}
+		&#p4-d2-trigger {
+			top: 42.95%;
+			left: 30.5%;
+			svg {
+				left: 32.6%;
+			}
+		}
+		&#p4-d3-trigger {
+			top: 42.95%;
+			left: 50.5%;
+			svg {
+				left: 49%;
+			}
+		}	
+		&#p4-d4-trigger {
+			top: 42.95%;
+			left: 74.5%;
+			svg {
+				left: 35%;
+			}
+		}			
+			svg.plus {
+				width: 10.2%;
+				bottom: 8.1%;
+				left: 49.3%;
+			}
+			
+		}
+	}
 }
 
 #p4-d1 {
-	object {
-		transform: translateX(-2.3%);
-	}
+	transform: translateX(-1.15vh);
+
+	.mask-buttons {
 	
-	.positioned-images {
-		img {
-			bottom: 9.7%;
-			width: 56.1%;
-			right: 16%;
+	> div {
+		position: absolute;
+		width: 13%;
+		height: 8%;
+		background: rgba(255,255,255,.4);
+		
+		&.air-trigger.modal-trigger {
+			top: 56%;
+			left: 13%;
+			height: 10%;
+			
+			svg.plus {
+				bottom: 10.4%;
+				left: 43.5%;
+			}
+			
 		}
+	
+	}
+
 	}
 }
 
 #p4-d2 {
-	object {
-		transform: translateX(-2.3%);
-	}
-	
-	.positioned-images {
-		img {
-			bottom: 13%;
-			width: 40%;
-			right: 13%;
-		}
-	}
+	transform: translateX(-1.15vh);
 }
 
 #p4-d3 {
-	object {
-		transform: translateX(-2.3%);
-	}
-	
-	.positioned-images {
-		img {
-			bottom: 7%;
-			width: 77%;
-			right: 9%;
-		}
-	}
+	transform: translateX(-1.15vh);
 }
 
 #p4-d4 {
-	object {
-		transform: translateX(-2.3%);
-	}
-	
-	.positioned-images {
-		img {
-			bottom: 5%;
-			width: 33%;
-			right: 19%;
-		}
-	}
+	transform: translateX(-1.15vh);
 }

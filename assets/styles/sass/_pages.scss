@@ -40,6 +40,11 @@
 		background-position: 50% 50%;
 	}
 	
+	svg.plus {
+		width: 14%;
+		position: absolute;
+	}
+	
 	.app-inner {
 		position: relative;
 		display: block;
@@ -58,7 +63,7 @@
 			}
 			
 			&.back-page-constant {
-				background-image: url('../../images/constant-bg.png');
+				background-image: url('../../images/constant-bg.svg');
 				background-size: cover;
 				
 				.bpc-top {
@@ -86,6 +91,11 @@
 				padding-left: 0;
 				display: flex;
 				align-items: center;
+				
+				object {
+					width: 100%;
+				}
+				
 			}
 			
 		}

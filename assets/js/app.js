@@ -190,12 +190,12 @@
 			
 	}
 	
-	let initial=setTimeout(showScreensaver,300000);
-	
-	document.addEventListener("click", (event) => {
-		clearTimeout( initial );
-		initial=setTimeout(showScreensaver,300000); 
-	});
+	// let initial=setTimeout(showScreensaver,600000);
+	// 
+	// document.addEventListener("click", (event) => {
+	// 	clearTimeout( initial );
+	// 	initial=setTimeout(showScreensaver,600000); 
+	// });
 	
 	// Click Activate Screensaver
 	screensaverTrigger.forEach(function (screensaverTriggerLink, index) {
@@ -279,7 +279,7 @@
 	});
 	
 	// Page Drawer Triggers
-	const drawerLinks = document.querySelectorAll('.drawer-links > g');
+	const drawerLinks = document.querySelectorAll('.drawer-links > div');
 	const closeDrawer = document.getElementById('close-drawer');
 	const drawerWrap = document.getElementById('drawer-wrap');
 	const drawerInners = document.querySelectorAll('.drawer-wrap .inner');
