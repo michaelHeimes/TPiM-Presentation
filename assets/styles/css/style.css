@@ -671,6 +671,9 @@ body {
 .app-container .app-inner section.back-page object {
   width: 100%;
 }
+.app-container .app-inner section .mask-buttons > div {
+  cursor: pointer;
+}
 
 .screen-wrap {
   position: absolute;
@@ -765,18 +768,10 @@ body {
   background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(174, 176, 179) 100%);
 }
 
-#page-1 img.application-assessment-img {
-  position: absolute;
-  width: 74%;
-  bottom: 12%;
-  right: 15%;
-}
-
 #page-2 .mask-buttons > div {
   position: absolute;
   width: 13%;
   height: 8%;
-  background: rgba(255, 255, 255, 0.4);
 }
 #page-2 .mask-buttons > div#p2-d1-trigger {
   top: 49%;
@@ -796,13 +791,13 @@ body {
 }
 
 #p2-d1 {
-  -webkit-transform: translateX(-1vh);
-          transform: translateX(-1vh);
+  -webkit-transform: translateX(-1.15vh);
+          transform: translateX(-1.15vh);
 }
 
 #p2-d2 {
-  -webkit-transform: translateX(-1vh);
-          transform: translateX(-1vh);
+  -webkit-transform: translateX(-1.15vh);
+          transform: translateX(-1.15vh);
 }
 #p2-d2 .mask-buttons > div {
   position: absolute;
@@ -819,11 +814,15 @@ body {
   left: 43.5%;
 }
 
+#p2-d3 {
+  -webkit-transform: translateX(-1.15vh);
+          transform: translateX(-1.15vh);
+}
+
 #page-3 .mask-buttons > div {
   position: absolute;
   width: 28%;
   height: 8%;
-  background: rgba(255, 255, 255, 0.4);
 }
 #page-3 .mask-buttons > div#p3-d1-trigger {
   top: 42.95%;
@@ -855,7 +854,6 @@ body {
   position: absolute;
   width: 13%;
   height: 8%;
-  background: rgba(255, 255, 255, 0.4);
 }
 #p3-d1 .mask-buttons > div.air-trigger.modal-trigger {
   top: 56%;
@@ -886,7 +884,6 @@ body {
   position: absolute;
   width: 17%;
   height: 13%;
-  background: rgba(255, 255, 255, 0.4);
 }
 #page-4 .mask-buttons > div#p4-d1-trigger {
   top: 42.95%;
@@ -930,7 +927,6 @@ body {
   position: absolute;
   width: 13%;
   height: 8%;
-  background: rgba(255, 255, 255, 0.4);
 }
 #p4-d1 .mask-buttons > div.air-trigger.modal-trigger {
   top: 56%;
@@ -957,22 +953,23 @@ body {
           transform: translateX(-1.15vh);
 }
 
-#page-5 .screen-img {
+#page-5 .mask-buttons > div {
   position: absolute;
-  width: 78%;
-  bottom: 10%;
+  width: 44.5%;
+  height: 9.5%;
+}
+#page-5 .mask-buttons > div#p5-d1-trigger {
+  top: 43.5%;
+  left: 10.12%;
+}
+#page-5 .mask-buttons > div#p5-d1-trigger svg.plus {
+  width: 4%;
+  bottom: 13.1%;
+  left: 43.2%;
 }
 
-#p5-d1 .positioned-images img {
-  bottom: 5.7%;
-  width: 50%;
-  right: 7%;
-}
-
-#page-6 img.service-support-img {
-  position: absolute;
-  width: 48%;
-  bottom: 6.5%;
-  left: 21%;
+#p5-d1 {
+  -webkit-transform: translateX(-1.15vh);
+          transform: translateX(-1.15vh);
 }
 /*# sourceMappingURL=style.css.map */

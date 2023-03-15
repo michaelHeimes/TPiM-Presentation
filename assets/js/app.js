@@ -153,11 +153,15 @@
 		}, 3200);
 	});	 
 	
-	const linkCircles = document.querySelectorAll('.link-circle');
+	
+	// Button plus pulses
+	const linkCircles = document.querySelectorAll('svg.plus');
+	gsap.set(linkCircle, {transformOrigin:"50% 50%", scaleX: 1, scaleY: 1};
 	
 	linkCircles.forEach(function (linkCircle, index) {
 		let linkAnimation = gsap.timeline({repeat: -1, repeatDelay: 1});
-		linkAnimation.from(linkCircle, {transformOrigin:"50% 50%", scaleX: .8, scaleY: .8, duration: 1, ease: "expo.out"});
+		linkAnimation.to(linkCircle, {transformOrigin:"50% 50%", scaleX: .65, scaleY: .65, duration: .7, ease: "expo.in"});
+		linkAnimation.to(linkCircle, {transformOrigin:"50% 50%", scaleX: 1, scaleY: 1, duration: .7, ease: "expo.out"});
 	});
 	
 	
@@ -191,11 +195,11 @@
 	}
 	
 	// let initial=setTimeout(showScreensaver,600000);
-	// 
-	// document.addEventListener("click", (event) => {
-	// 	clearTimeout( initial );
-	// 	initial=setTimeout(showScreensaver,600000); 
-	// });
+	
+	document.addEventListener("click", (event) => {
+		clearTimeout( initial );
+		initial=setTimeout(showScreensaver,600000); 
+	});
 	
 	// Click Activate Screensaver
 	screensaverTrigger.forEach(function (screensaverTriggerLink, index) {
@@ -336,8 +340,10 @@
 		const modalVideos = document.querySelectorAll('.modal-video');
 		
 		modalVideos.forEach(function (modalVideo, index) {
-			modalVideo.pause();
-			modalVideo.currentTime = 0;
+			setTimeout(function() {
+				modalVideo.pause();
+				modalVideo.currentTime = 0;
+			}, 1000);
 		});
 
 	}
