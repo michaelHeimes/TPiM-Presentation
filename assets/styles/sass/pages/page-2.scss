@@ -5,7 +5,7 @@
 			position: absolute;
 			width: 13%;
 			height: 8%;
-			background: rgba(255,255,255,.4);
+			//background: rgba(255,255,255,.4);
 			
 		&#p2-d1-trigger {
 			top: 49%;
@@ -29,11 +29,11 @@
 }
 
 #p2-d1 {
-	transform: translateX(-1vh);
+	transform: translateX(-1.15vh);
 }
 
 #p2-d2 {
-	transform: translateX(-1vh);
+	transform: translateX(-1.15vh);
 
 	.mask-buttons {
 	
@@ -56,6 +56,10 @@
 	
 	}
 
+	}
+
 }
 
+#p2-d3 {
+	transform: translateX(-1.15vh);
 }
